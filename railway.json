@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "ckan",
-      "startCommand": "docker-compose up",
+      "startCommand": "docker-compose -f docker-compose.yml up",
       "build": {
         "builder": "DOCKER"
       }
