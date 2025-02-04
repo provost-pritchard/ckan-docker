@@ -1,0 +1,10 @@
+{
+  "services": {
+    "web": {
+      "build": {
+        "builder": "NIXPACKS"
+      },
+      "start": "docker-compose up"
+    }
+  }
+}
