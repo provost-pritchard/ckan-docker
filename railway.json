@@ -4,7 +4,10 @@
       "build": {
         "builder": "NIXPACKS"
       },
-      "start": "docker-compose up"
+	  "deploy":{
+      	"startCommand": "docker-compose -f docker-compose.yml up"
+
+	  }
     }
   }
 }
