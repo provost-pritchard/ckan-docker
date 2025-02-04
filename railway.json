@@ -1,13 +1,11 @@
 {
-  "services": {
-    "web": {
+  "services": [
+    {
+      "name": "ckan",
+      "startCommand": "docker-compose up",
       "build": {
-        "builder": "NIXPACKS"
-      },
-	  "deploy":{
-      	"startCommand": "docker-compose -f docker-compose.yml up"
-
-	  }
+        "builder": "DOCKER"
+      }
     }
-  }
+  ]
 }
